@@ -15,109 +15,101 @@
       <div class="header-right">
         <a class="active" href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
       </div>
     </div>
 
 <h1>NOTEWORTHY WINDS AND BRASS</h1>  
-<div class="imageContainer">
-<img src="https://i.pinimg.com/736x/eb/f1/96/ebf196d4bb3c039ac98962e58b3f0019--music-wall-art-french-horn.jpg"
-width = 100% height= auto>
-</div>
+  <div class="slideshow-container">
+
+  <div class="Slides fade">
+    <div class="numbertext">1 / 3</div> 
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/238085042_3215824928692295_5384079260508928394_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=973b4a&_nc_ohc=DeLfdTMKguoAX91fQKq&_nc_ht=scontent-lga3-1.xx&oh=e6464f8fd4799c401f9d1f09723271a5&oe=61AA6A18" style="width:100%">
+    <h2> Yamaha 87D French Horn, ultrasonically cleaned and ready for sale. $4750. Contact if interested! </h2>
+  </div>
+  
+  <div class="Slides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/236793459_3215823575359097_5383096533748971360_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=6e5ad9&_nc_ohc=qce76PvbWXYAX_-6kAo&_nc_ht=scontent-lga3-1.xx&oh=03afe954a0e0532f8bfc1c9ad484a599&oe=61AA5765" style="width:100%">
+    <h2> Restoration of a G. Haynes Piccolo circa 1920. Grenadilla with silver keys and embochure. Sold. </h2>
+  </div>
+  
+  <div class="Slides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/241762174_3239160029692118_5260036156446833161_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=973b4a&_nc_ohc=HT1tDAKRA-oAX8N6mpY&_nc_ht=scontent-lga3-1.xx&oh=1ccc63ad3ad0d1d4c6c060c6c87fadff&oe=61A9D642" style="width:100%">
+    <h2>On the bench, a Muramatsu in for an overhaul. Whatever your needs, we'll take good care of you. </h2>
+  </div>
+  
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
+  <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+  </div>
+  <br>
+  
+  <div style= "caption-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+  </body>
+</html>
+<script>
+    let slideIndex = 1;
+  showSlides(slideIndex); 
+
+  
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  } 
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+  function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("Slides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length} 
+  for (i = 0; i < slides.length; i++) { 
+    slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", ""); 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+  }
+</script>
+
 <br>
 <br>
 
-<h1> SMALL ABOUT </h1>
+<h3> WHAT IS NOTEWORTHY WINDS AND BRASS? </h3>
 <p> 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat laborum at numquam fuga? Ipsum odio rerum, animi deserunt non provident accusantium ab quo dolor ducimus voluptas ipsam asperiores delectus tempora!
-</p>
+    Noteworthy Winds and Brass is a small family owned shop specializing in the restoration of woodwind and brass instruments. While piccolos, flutes and clarinets are our specialty, our technician has spent over 30 years working on all instruments including saxophones and all brass (french horn specialist) instruments. Ultrasonic tank on the premises, we can do both rotor and piston valve and trombone slide alignments, no job is too big or too small.
 
 <br>
-<!-- <div class="imageContainer">
-  <img src="https://dancewithmeusa.com/wp-content/uploads/2017/10/Wheelchair-ballroom-dancing.jpg"
-  width = 100% height= auto>
-  </div> -->
+<br>
 
-    <h1> REVIEWS </h1>
+    <h3> REVIEWS </h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolorem. Magnam aperiam voluptas numquam laudantium quod quam sequi ipsam! Obcaecati earum tenetur quibusdam amet optio nemo. Voluptate delectus vero iusto!</p>
     <br>
 
-    <div class="slideshow-container">
-
-        <div class="Slides fade">
-          <div class="numbertext">1 / 3</div> 
-          <img src="https://images.unsplash.com/photo-1600771488491-c22d42a9347d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xhcmluZXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" style="width:100%">
-          <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius, ab architecto vero alias voluptas magnam animi harum quas beatae repellat, corporis adipisci hic nemo sequi eos soluta omnis doloribus.</div>
-        </div>
-      
-        <div class="Slides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="https://thumbs.dreamstime.com/b/flute-3384437.jpg" style="width:100%">
-          <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id consectetur cumque temporibus necessitatibus excepturi a culpa quidem numquam ad blanditiis, facilis sapiente cum in ipsa ullam! Optio id dignissimos tempore.</div>
-        </div>
-      
-        <div class="Slides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="https://philharmonia-assets.s3.eu-west-1.amazonaws.com/uploads/2020/02/03094716/11_horn_flat-960x600.jpg" style="width:100%">
-          <div class="caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum repudiandae ratione, voluptatibus inventore voluptatem odio porro error ad tempora exercitationem? Dolore, iure ab! In fugit qui at voluptate sequi alias.</div>
-        </div>
-      
-    
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
-        <a class="next" onclick="plusSlides(1)">&#10095;</a> 
-      </div>
-      <br>
-      
-      <div style= "caption-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
-    
-        </body>
-    </html>
-    <script>
-            let slideIndex = 1;
-        showSlides(slideIndex); 
-    
-        
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        } 
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-        function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("Slides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1} 
-        if (n < 1) {slideIndex = slides.length} 
-        for (i = 0; i < slides.length; i++) { 
-            slides[i].style.display = "none"; 
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", ""); 
-        }
-        slides[slideIndex-1].style.display = "block"; 
-        dots[slideIndex-1].className += " active";
-        }
-    </script>
-    <html>
-
+      <html>
 
   <div class= "social">
-    <a style = "text-decoration:none;" href="facebook link" target=_blank> <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="facebook logo" width=5% height=5%>
-      </a>
+    <a style = "text-decoration:none;" href="https://www.facebook.com/Noteworthy-Winds-and-Brass-1622550811353056/?ref=page_internal" target=_blank> <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="facebook logo" width=5% height=5%>
+      </a><!-- 
     <a style = "text-decoration:none;" href="twitter link" target=_blank> <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="twitter logo" width=5% height=5%>
       </a>
     <a style = "text-decoration:none;" href="insta link" target=_blank> <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram logo" width=5% height=5%>
+      </a> -->
+    <a style = "text-decoration:none;" href= "mailto:Saab8d@gmail.com" target=_blank> <img src="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-052_envelope_mail_letter-1024.png" alt="instagram logo" width=5% height=5%>
       </a>
-    <a style = "text-decoration:none;" href="email link" target=_blank> <img src="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-052_envelope_mail_letter-1024.png" alt="instagram logo" width=5% height=5%>
-      </a>
-    <a style = "text-decoration:none;" href="email link" target=_blank> <img src="https://cdn3.iconfinder.com/data/icons/webina-seo-development-and-marketing/128/seo_web_3-12-512.png" alt="instagram logo" width=5% height=5%>
+    <a style = "text-decoration:none;" href="9176708294" target=_blank> <img src="https://cdn3.iconfinder.com/data/icons/webina-seo-development-and-marketing/128/seo_web_3-12-512.png" alt="instagram logo" width=5% height=5%>
       </a> 
 
   </div> 
