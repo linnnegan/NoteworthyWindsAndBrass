@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+.header {
+overflow: hidden;
+padding: 20px 10px;
+background:url("https://assets.classicfm.com/2017/37/berio-sequenza-scores-1505147472-list-handheld-1.png");
+height: 10%;
+color: #ffffff;
+}
+
+.header a {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  text-decoration: none;
+  font-family: "Andale Mono", AndaleMono, monospace; 
+  padding: 10px 10px;
+  background-color: #233458;
+  text-align: center;
+}
+.header a:hover {
+  color: #ffffff;
+  background-color: #5B6B86;
+}
+
+body { 
+margin: 0;
+font-family: "Andale Mono", AndaleMono, monospace; 
+background-color: #233458;
+padding: 0px;
+background: #233458;
+}
+
+img {
+  border: 10px transparent;
+}
+
+body, html {
+  height: 100%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 3.1em
+}
+h2 {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+p {
+  font-size: 2em;
+  color: #ffffff; 
+  margin:0;
+  padding: 1%
+}
+
+li {
+  font-size: 1.1em;
+  padding: 10px 20px 20px 10px;
+}
+
+ol {
+  font-size: 2em;
+  padding: 0px;
+}
+
+ul {
+  font-size: 1.3em;
+}
+
+th {
+  padding-bottom: 3em;
+}
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+a {
+  color: #AFD3E9;
+  font-size: 2em;
+}
