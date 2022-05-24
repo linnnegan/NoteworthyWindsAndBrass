@@ -16,6 +16,15 @@ height: 10%;
   height: 30%;
 }
 
+.wideImageTwo {
+  overflow: hidden;
+  padding: 1.5%;
+  background: url("https://lecoindesbois.com/en/wp-content/uploads/2018/10/clarinette-bkg-l.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30%;
+}
+
 .header a {
   color: #ffffff;
   padding-top: 20px;
